@@ -1,23 +1,23 @@
 # T3A2-A Katie Lock and Nate Picone
 
-## We'ppreciate - Putting your people front and centre - A full stack MERN application
+## We'ppreciate - Putting your people front and centre. A full stack MERN application
 
 ## R1 Purpose
 
-A leader in the Fast Moving Consumer Goods industry approached us with a problem - they have an monthly employee reward and recognition program for a key business unit, Business Services. Anyone in the business can nominate anyone in Business Services.
+A leader in the Fast Moving Consumer Goods industry approached us with a problem.
 
-They want to expand the program so that anyone from the wider business can be nominated, but have some issues they want to overcome first.
+They have a monthly employee reward and recognition program for a key business unit, Business Services. Anyone in the business can nominate anyone in Business Services. They want to expand the program so that anyone from the wider business can be nominated, but have some issues they want to overcome first.
 
 ### The problem
 
-After a requirements discussion with the client, and some analysis of the existing system, and some analysis for the current solution, we agreed that:
+After a requirements discussion with the client, and some analysis of the existing system, we aligned with the client that:
 
-- Completing a nomination through a Microsoft Form is clunky, lacks an engaging experience, and that a custom web interface is preferable;
+- Completing a nomination through a Microsoft Form is not easy, it lacks an engaging experience, and that a custom web interface is preferable;
 - Finding the location of the Microsoft Forms is difficult, and a linkable domain name would be helpful;
-- The monthly process of extracting the nominations from Microsoft Excel, preparing them for review, then manually building Powerpoint slides for presentation could use some improvement;
-- The business has a complicated structure of employees and vendor partner workers, who are also eligible for awards, and providing the nomination and award winner data to the vendor partners has been manual and prone to human error. A method of giving the vendor partners access to the data would be helpful;
+- The monthly process of extracting the nominations from Microsoft Excel, preparing the list for review, then manually building PowerPoint slides for presentation and sharing the data with relevant parties could use some improvement;
+- The business has a complicated structure of employees and vendor partner workers, who are also eligible for awards, and providing the nomination and award winners' data to the vendor partners has been manual and prone to human error. A method of giving the vendor partners access to the data would be helpful;
 - Nomination and award recipients have no persistent record of the nomination or award, which creates a feeling that the celebration is fleeting, and a method for recipients to be able to keep the details of the award would be helpful for the employee's satisfaction, and for their development and performance review discussions;
-- Likewise, those who submit nominations have no record of having done so, creating unease around whether their nomination was successful and no way of checking who they have nominated in the past;
+- Likewise, those who submit nominations have no record of having done so, creating unease around whether their nomination was successful and leaving no way of nominators checking who they have nominated in the past;
 - There is no formalised way of expressing and sharing thanks to an individual for actions that are appreciated but not substantial enough for an award nomination;
 
 > [!NOTE]
@@ -25,7 +25,7 @@ After a requirements discussion with the client, and some analysis of the existi
 
 ### The reason
 
-Celebrating the success of people within business is important for engagement, which can translate to higher employee retention, and renewed efforts of those who have been recognised, as well as observers.
+Celebrating the success of people within business is important for engagement, which can translate to higher employee retention, and renewed efforts of those who have been recognised, as well as within their peers.
 
 According to a 2019 [Deloitte study](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-about-deloitte-the-practical-magic-of-thank-you-june-2019.pdf):
 
@@ -45,18 +45,19 @@ According to a 2019 [Deloitte study](https://www2.deloitte.com/content/dam/Deloi
 
 ### The proposal
 
-We will build a pilot full stack MERN web application, allowing for the current structure (anyone from the business can nominate anyone in Business Services), with the ability for the client to easily upscale for future full business expansion.
+We will build a full stack MERN web application, as a pilot, allowing for the current award system structure (anyone from the business can nominate anyone in Business Services), with the ability for the client to easily upscale for future, full-business expansion.
 
-The web app will offer services to cater to the user stories, identified below. The main groups of users are:
+The web app will offer services to cater to the user stories, identified below. In summary, the main groups of users are:
 
-1. Anyone with an email address with one of the business' domains can register to view Business Services people’s profiles, nominate or send a form of instant thanks.
+1. Anyone with an email address with one of the business' domains can access the site, to view Business Services people’s profiles, to nominate, or to send a form of instant thanks.
 1. Anyone within Business Services can be nominated or receive a form of instant thanks. This group will:
 	- have a customisable profile,
 	- have a feed of others' nominations, awards and instant thanks to view and interact with,
-	- have a persistent record of nominations, awards and instant thanks received. 
+	- have a persistent record of nominations, awards and instant thanks received,
+	- also be able to nominate others within Business Services.
 1. Senior Managers will be able to review, group, reject, or progress nominations to awards.
-1. Line Managers will have a rolled-up view of cards, nominations and awards received by team members
-1. Administrators will be able to change user details, add and remove profiles, add and remove nominations, remove authorisation
+1. Line Managers will have a rolled-up view of cards, nominations and awards received by thier team members.
+1. Administrators will be able to have wide data viewing, updating, deleting, and creation abilities, including to change user details, add and remove profiles, add and remove nominations, and and remove authorisation.
 
 Were this project to be implemented, the client would be encouraged to run promotional activity for implementation and staff engagement. We suggest identifying stakeholders, and a group of people for User Acceptance Testing and user experience feedback.
 
