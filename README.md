@@ -215,6 +215,7 @@ We split our project into 6 1-week sprints, starting from 0th week.
 
 > [!NOTE]
 > Project Management documents are viewable on the below links. Note that as they are working documents, the live view may differ from the images below
+
 [We'ppreciate's Notion site - Sprints](https://weppreciate.notion.site/096aac0b89cd4d4ba7fcd0b02ce6187a?v=b9b2dde3fc2e4b53b59e3509f8c3d2b2&pvs=4)
 
 [We'ppreciate's Notion site - Tasks](https://weppreciate.notion.site/75b89fa68e894f5f954787c5eeef489f?v=989fd6fd0ad146e4af4e6ada44b70641&pvs=4)
@@ -252,7 +253,7 @@ We split our project into 6 1-week sprints, starting from 0th week.
 
 ![image of the weekly meeting minutes, end week 0](./resources/notion-screenshots/end-wk-0/team-weekly-sprint-0.jpg)
 
-![image of the standup meeting minutes, end week 0](./resources/notion-screenshots/end-wk-0/sunday-sprint-wk-0.jpg)
+![image of the standup meeting minutes, end week 0](./resources/notion-screenshots/end-wk-0/sunday-standup-wk-0.jpg)
 
 ## Project boards at end Sprint 1
 
