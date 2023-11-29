@@ -211,7 +211,7 @@ Currently evaluating between:
 
 ## R6 - Project Management
 
-We split our project into 6 1-week sprints, starting from 0th week.
+We split our project into 6x 1-week sprints, starting from 0th week.
 
 > [!NOTE]
 > Project Management documents are viewable on the below links. Note that as they are working documents, the live view may differ from the images below
