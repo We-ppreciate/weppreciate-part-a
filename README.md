@@ -1,6 +1,8 @@
 # T3A2-A Katie Lock and Nate Picone
 
-## We'ppreciate - Putting your people front and centre. A full stack MERN application
+## You work hard. We'ppreciate you. 
+
+### A full stack MERN application
 
 ## R1 Purpose
 
