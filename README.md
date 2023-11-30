@@ -2,7 +2,7 @@
 
 ## You work hard. We'ppreciate you. 
 
-### A full stack MERN application
+### We'ppreciate - a full stack MERN application
 
 ## R1 Purpose
 
