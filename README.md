@@ -1,6 +1,6 @@
 # T3A2-A Katie Lock and Nate Picone
 
-## You work hard. We'ppreciate you. 
+## You work hard. We'ppreciate you.
 
 ### We'ppreciate - a full stack MERN application
 
@@ -22,9 +22,6 @@ After a requirements discussion with the client, and some analysis of the existi
 - Likewise, those who submit nominations have no record of having done so, creating unease around whether their nomination was successful and leaving no way of nominators checking who they have nominated in the past;
 - There is no formalised way of expressing and sharing thanks to an individual for actions that are appreciated but not substantial enough for an award nomination;
 
-> [!NOTE]
-> Viewable on [We'ppreciate's Notion site - Product Requirements Document](https://weppreciate.notion.site/Product-Requirements-Document-1a4fc83d4ca94759987db15e73e52171?pvs=4)
-
 ### The reason
 
 Celebrating the success of people within business is important for engagement, which can translate to higher employee retention, and renewed efforts of those who have been recognised, as well as within their peers.
@@ -41,9 +38,6 @@ According to a 2019 [Deloitte study](https://www2.deloitte.com/content/dam/Deloi
 > “I want the recognition to match the level of work. Small things don’t need to be shared with the broader team. Big things should be recognized to higher levels.“
 
 [Deloitte](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-about-deloitte-the-practical-magic-of-thank-you-june-2019.pdf), p21
-
-> [!NOTE]
-> Viewable on [We'ppreciate's Notion site - Product Requirements Document](https://weppreciate.notion.site/Product-Requirements-Document-1a4fc83d4ca94759987db15e73e52171?pvs=4)
 
 ### The proposal
 
@@ -66,6 +60,30 @@ Were this project to be implemented, the client would be encouraged to run promo
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Product Requirements Document](https://weppreciate.notion.site/Product-Requirements-Document-1a4fc83d4ca94759987db15e73e52171?pvs=4)
 
+### Competitor research
+
+Our look into currently available alternative solutions returned several inspirational points that we liked, and some opportunities for points of difference.
+
+We decided our application should be light in its interface, with muted and warm colour blocks. This would give users of the site a warm, comforting feeling, while allowing bolder colours associated with the awards and people to take focus.
+
+Some competitors offer integration with communication apps, such as slack, which we found interesting, but agreed this was outside the scope of the project.
+
+![Screenshot from Notion of competitor research completed.](./resources/notion-competitor-research.jpg)
+
+> [!NOTE]
+> Viewable on [We'ppreciate's Notion site - Competitor Research](https://weppreciate.notion.site/https://weppreciate.notion.site/Competitor-Research-24071f8e8bce49a79e71c982f9db55ba?pvs=4)
+
+#### Branding, look and feel
+
+Our clilent has strong primary colours for its branding, and equally strong secondary colours for its values. We like the colurs and their association, but felt they risked pulling the focus away from people and achievements. As a solution to this, we decided to use the client's secondary colours as a starting point, and both desaturate and lighten them, resulting in pastel versions of those colours
+
+![Client's secondary colours and associated values](./resources/colour-swatch-accent.png)
+
+![We'ppreciate versions of client's colours - desaturated and lightened](./resources/colour-swatch-kawaii-accent-v1.2.png)
+
+> [!NOTE]
+> Viewable on [We'ppreciate's Notion site - Brand Design](https://weppreciate.notion.site/Brand-Design-cb65efea9fe84dfab495aea999f27a22?pvs=4)
+
 ## R4 User Stories
 
 ### The user story format
@@ -85,7 +103,7 @@ Breaking this down:
 
 To give our user stories the true “persona” effect, here are some defined personas that represent a variety of users/stakeholders within the organisation:
 
-| **Name**   | **Role within organisation**                       | **User role in application** |
+| **Name**   | **Role within organisation**               | **User role in application** |
 | ------ | ---------------------------------------------- | ------------------------ |
 | Nate   | Individual contributor, Business Services team | Employee (Full access)   |
 | Ed     | Line manager, Business Services team           | Line Manager             |
@@ -119,11 +137,9 @@ We intend to solve these issues with a full stack MERN web application, harnessi
 
 [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 
-[SCSS](https://sass-lang.com/)
+[SCSS](https://sass-lang.com/) or [Material UI](https://mui.com/)
 
 [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-==any styling framework?==
 
 #### Database
 
@@ -196,7 +212,17 @@ Currently evaluating between:
 
 ### Dataflow Diagram
 
-![Dataflow detailed Diagram, showing processes within the system](./resources/data-flow-diagram-v5.png)
+We started with a draft tangle of connections which became progressively hard to read as more processes and data stores were added:
+
+![Dataflow detailed Diagram, draft v2.0](./resources/data-flow-diagram-v2.png)
+
+After some flow chart refactoring, there were some improvements, when we realised that Full User, Senior Manager, Line Manager, and Admin were all Full Users, with various privileges:
+
+![Dataflow detailed Diagram draft v5.0, showing processes within the system](./resources/data-flow-diagram-v5.png)
+
+And finally, a further refactor and annotations, after AWS S3 data stores were added for user images, and nomination values images:
+
+![Dataflow detailed Diagram final v5.1, showing processes within the system, and AWS S3 data stores](./resources/data-flow-diagram-v5.1.png)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Dataflow Diagram](https://weppreciate.notion.site/Data-Flow-Diagram-47398d8544d94a65a338526915426a19?pvs=4)
@@ -204,7 +230,7 @@ Currently evaluating between:
 
 ## R3 - Application Architecture Diagram
 
-![Image of the We'ppreciate Application Architecture Diagram, showing high level front end layer, back end layer, data layer, and database layer](./resources/application-architecture-document-v1.png)
+![Image of the We'ppreciate Application Architecture Diagram, showing high level front end layer, back end layer, data layer, and database layer](./resources/weppreciate-aadv2.png)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Application Architecture Diagram](https://weppreciate.notion.site/Application-Architecture-Diagram-51b1afe2e0a4482192db82302ac318b4?pvs=4)
@@ -235,56 +261,56 @@ We split our project into 6x 1-week sprints, starting from 0th week.
 
 ### Sprint board wk0
 
-![image of the sprint board, end week 0](./resources/notion-screenshots/end-wk-0/sprint-board-end-sprint-0.jpg)
+![image of the sprint board, end week 0](./resources/notion-project-management-screenshots/end-wk-0/sprint-board-end-sprint-0.jpg)
 
 ### Project Board wk0
 
-![image of the project board, end week 0](./resources/notion-screenshots/end-wk-0/projects-end-sprint-0.jpg)
+![image of the project board, end week 0](./resources/notion-project-management-screenshots/end-wk-0/projects-end-sprint-0.jpg)
 
 
 ### Task board, by project wk0
 
-![image of the task board by project, end week 0](./resources/notion-screenshots/end-wk-0/task-by-project-end-sprint-0.jpg)
+![image of the task board by project, end week 0](./resources/notion-project-management-screenshots/end-wk-0/task-by-project-end-sprint-0.jpg)
 
 ### Task Timeline wk0
 
-![image of the task board timeline, end week 0](./resources/notion-screenshots/end-wk-0/task-timeline-end-sprint-0-a.jpg)
+![image of the task board timeline, end week 0](./resources/notion-project-management-screenshots/end-wk-0/task-timeline-end-sprint-0-a.jpg)
 
 ### Documents list wk0
 
-![image of the documents board, end week 0](./resources/notion-screenshots/end-wk-0/docs-end-sprint-0.jpg)
+![image of the documents board, end week 0](./resources/notion-project-management-screenshots/end-wk-0/docs-end-sprint-0.jpg)
 
 ### Meetings wk0
 
-![image of the weekly meeting minutes, end week 0](./resources/notion-screenshots/end-wk-0/team-weekly-sprint-0.jpg)
+![image of the weekly meeting minutes, end week 0](./resources/notion-project-management-screenshots/end-wk-0/team-weekly-sprint-0.jpg)
 
-![image of the standup meeting minutes, end week 0](./resources/notion-screenshots/end-wk-0/sunday-standup-wk-0.jpg)
+![image of the standup meeting minutes, end week 0](./resources/notion-project-management-screenshots/end-wk-0/sunday-standup-wk-0.jpg)
 
 ## Project boards at end Sprint 1
 
 ### Sprint board wk1
 
-![image of the sprint board, end week 1](./resources/notion-screenshots/end-wk-1/sprint-kanban-end-of-sprint-1.jpg)
+![image of the sprint board, end week 1](./resources/notion-project-management-screenshots/end-wk-1/sprint-kanban-end-of-sprint-1.jpg)
 
 ### Project Board wk1
 
-![image of the project board, end week 1](./resources/notion-screenshots/end-wk-1/project-end-sprint-1.jpg)
+![image of the project board, end week 1](./resources/notion-project-management-screenshots/end-wk-1/project-end-sprint-1.jpg)
 
 
 ### Task board, by project wk1
 
-![image of the task board by project, end week 1](./resources/notion-screenshots/end-wk-1/task-by-project-end-wk-1.jpg)
+![image of the task board by project, end week 1](./resources/notion-project-management-screenshots/end-wk-1/task-by-project-end-wk-1.jpg)
 
 ### Task Timeline wk1
 
-![image of the task board timeline, end week 1](./resources/notion-screenshots/end-wk-1/task-timeline-end-sprint-1.jpg)
+![image of the task board timeline, end week 1](./resources/notion-project-management-screenshots/end-wk-1/task-timeline-end-sprint-1.jpg)
 
 ### Documents list wk1
 
-![image of the documents board, end week 1](./resources/notion-screenshots/end-wk-1/docs-end-sprint-1.jpg)
+![image of the documents board, end week 1](./resources/notion-project-management-screenshots/end-wk-1/docs-end-sprint-1.jpg)
 
 ### Meetings wk1
 
-![image of the standup minutes 26th Nov, end week 1](./resources/notion-screenshots/end-wk-1/stand-up-sprint-1.jpg)
+![image of the standup minutes 26th Nov, end week 1](./resources/notion-project-management-screenshots/end-wk-1/stand-up-sprint-1.jpg)
 
-![image of the standup meeting minutes 21st Nov, end week 1](./resources/notion-screenshots/end-wk-1/standup-21-Nov-wk1.jpg)
+![image of the standup meeting minutes 21st Nov, end week 1](./resources/notion-project-management-screenshots/end-wk-1/standup-21-Nov-wk1.jpg)
