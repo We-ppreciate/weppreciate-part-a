@@ -33,11 +33,11 @@ According to a 2019 [Deloitte study](https://www2.deloitte.com/content/dam/Deloi
 
 > ...… one study found employees receiving small rewards and thanks were eight times more engaged than those receiving compensation and bonus increases once a year.
 
-[Deloitte](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-about-deloitte-the-practical-magic-of-thank-you-june-2019.pdf), p23
+*[Deloitte](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-about-deloitte-the-practical-magic-of-thank-you-june-2019.pdf), p23*
 
 > “I want the recognition to match the level of work. Small things don’t need to be shared with the broader team. Big things should be recognized to higher levels.“
 
-[Deloitte](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-about-deloitte-the-practical-magic-of-thank-you-june-2019.pdf), p21
+*[Deloitte](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-about-deloitte-the-practical-magic-of-thank-you-june-2019.pdf), p21*
 
 ### The proposal
 
@@ -62,11 +62,11 @@ Were this project to be implemented, the client would be encouraged to run promo
 
 ### Competitor research
 
-Our look into currently available alternative solutions returned several inspirational points that we liked, and some opportunities for points of difference.
+We looked into currently available alternative solutions, and this search returned several inspirational points that we liked, and some opportunities for points of difference.
 
 We decided our application should be light in its interface, with muted and warm colour blocks. This would give users of the site a warm, comforting feeling, while allowing bolder colours associated with the awards and people to take focus.
 
-Some competitors offer integration with communication apps, such as slack, which we found interesting, but agreed this was outside the scope of the project.
+Some competitors offer integration with communication apps, such as Slack, which we found interesting - but agreed this was outside the scope of the project.
 
 ![Screenshot from Notion of competitor research completed.](./resources/notion-competitor-research.jpg)
 
@@ -75,11 +75,15 @@ Some competitors offer integration with communication apps, such as slack, which
 
 #### Branding, look and feel
 
-Our clilent has strong primary colours for its branding, and equally strong secondary colours for its values. We like the colurs and their association, but felt they risked pulling the focus away from people and achievements. As a solution to this, we decided to use the client's secondary colours as a starting point, and both desaturate and lighten them, resulting in pastel versions of those colours
+Our client has strong primary colours for its branding, and equally strong secondary colours for its values. We like the colours and their association, but felt they risked pulling the focus away from people and achievements. As a solution to this, we decided to use the client's secondary colours as a starting point, and both desaturate and lighten them, resulting in pastel versions of those colours:
 
 ![Client's secondary colours and associated values](./resources/colour-swatch-accent.png)
 
 ![We'ppreciate versions of client's colours - desaturated and lightened](./resources/colour-swatch-kawaii-accent-v1.2.png)
+
+We created a unique logo for We'ppreciate that incorporated some of these colours, but also represented "togetherness" in the way that the W loops and unites:
+
+![We'ppreciate logo](./resources/weppreciate-logo.png)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Brand Design](https://weppreciate.notion.site/Brand-Design-cb65efea9fe84dfab495aea999f27a22?pvs=4)
@@ -103,13 +107,13 @@ Breaking this down:
 
 To give our user stories the true “persona” effect, here are some defined personas that represent a variety of users/stakeholders within the organisation:
 
-| **Name**   | **Role within organisation**               | **User role in application** |
-| ------ | ---------------------------------------------- | ------------------------ |
-| Nate   | Individual contributor, Business Services team | Employee (Full access)   |
-| Ed     | Line manager, Business Services team           | Line Manager             |
-| Katie  | HR Business Partner, Business Services team    | Administrator            |
-| Naomi  | Individual contributor, Sales team             | Employee (Basic access)  |
-| Hannah | Senior manager, Business Services team         | Senior Manager           |
+| **Name**   | **Role within organisation**               | **User role in application** | **Bio**
+| ------ | ---------------------------------------------- | ------------------------ |---------------|
+| Nate   | Individual contributor, Business Services team | Employee (Full access)   | Employee (Full)	A high achiever in the Business Services team, Nate is strongly motivated by words of affirmation from his peers and leaders.
+| Ed     | Line manager, Business Services team           | Line Manager             | Ed is a new manager in Business Services and is trying to build relationships with and understand the achievements of his direct reports.
+| Katie  | HR Business Partner, Business Services team    | Administrator            | Katie is a strong advocate for implementing technology to uplift and enhance HR initiatives.
+| Naomi  | Individual contributor, Sales team             | Employee (Basic access)  | Naomi is often on the road and has terrible luck with IT, so she’s built some great relationships with Business Services as they help keep her operational.
+| Hannah | Senior manager, Business Services team         | Senior Manager           | Hannah knows that her people are providing great value and work across the business every day, but she wants to see more visible recognition and higher participation in nominations for monthly awards.
 
 Some user stories will apply to multiple or all personas.
 
@@ -129,77 +133,54 @@ The core functionality of the application form the *acceptable criteria* in the 
 
 We intend to solve these issues with a full stack MERN web application, harnessing:
 
-#### Front end
+#### Front end:
+- [ReactJS](https://react.dev/)
+- [Javascript](https://www.javascript.com/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [SCSS](https://sass-lang.com/) or [Material UI](https://mui.com/)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-[ReactJS](https://react.dev/)
+#### Database:
+- [MongoDB (Atlas platform)](https://www.mongodb.com/)
 
-[Javascript](https://www.javascript.com/)
+#### Object Document Mapping:
+- [Mongoose](https://mongoosejs.com/docs/)
 
-[HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+#### Back end:
+- [Node.js](https://nodejs.org/en/)
+- [ExpressJS](https://expressjs.com/)
 
-[SCSS](https://sass-lang.com/) or [Material UI](https://mui.com/)
+#### Package Management:
+- [npm](https://www.npmjs.com/)
 
-[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-#### Database
-
-[MongoDB (Atlas platform)](https://www.mongodb.com/)
-
-#### Object Document Mapping
-
-[Mongoose](https://mongoosejs.com/docs/)
-
-#### Back end
-
-[Node.js](https://nodejs.org/en/)
-
-[ExpressJS](https://expressjs.com/)
-
-#### Package Management
-
-[npm](https://www.npmjs.com/)
-
-#### Testing
+#### Testing:
 
 Currently evaluating between:
+- [Jest](https://jestjs.io/)
+- [msjws](https://mswjs.io/)
+- [Cypress](https://www.cypress.io/)
 
-[Jest](https://jestjs.io/)
+#### Diagramming:
+- [draw.io](http://draw.io/)
 
-[msjws](https://mswjs.io/)
+#### Project Management:
+- [Notion](http://notion.so)
 
-[Cypress](https://www.cypress.io/)
+#### DevOps: 
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/doc)
+- [GitHub](https://github.com/)
 
-#### Diagramming
+#### Hosting:
+- [Netlify](https://www.netlify.com/) - front end hosting
+- [Heroku](https://dashboard.heroku.com/) - back end hosting
 
-[draw.io](http://draw.io/)
-
-#### Project Management
-
-[Notion](http://notion.so)
-
-#### DevOps
-
-[Visual Studio Code](https://code.visualstudio.com/)
-
-[Git](https://git-scm.com/doc)
-
-[GitHub](https://github.com/)
-
-#### Hosting
-
-[Netlify](https://www.netlify.com/) - Front end hosting
-
-[Heroku](https://dashboard.heroku.com/) - Back end hosting
-
-#### Resource File Storage
-
-[Google Drive](https://www.google.com/intl/en_au/drive/)
+#### Resource File Storage:
+- [Google Drive](https://www.google.com/intl/en_au/drive/)
 
 #### Design applications and services
-
-[Figma](https://www.figma.com/)
-
-[Affinity Designer](https://affinity.serif.com/en-gb/designer/)
+- [Figma](https://www.figma.com/)
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Product Requirements Document](https://weppreciate.notion.site/Product-Requirements-Document-1a4fc83d4ca94759987db15e73e52171?pvs=4)
@@ -236,6 +217,63 @@ And finally, a further refactor and annotations, after AWS S3 data stores were a
 > Viewable on [We'ppreciate's Notion site - Application Architecture Diagram](https://weppreciate.notion.site/Application-Architecture-Diagram-51b1afe2e0a4482192db82302ac318b4?pvs=4)
 
 ## R5 - Wireframes
+We used Figma for our wireframing, storing all wireframes in one file with a page to represent each unique page set within our application.
+
+> [!NOTE]
+> Viewable on [We'ppreciate's Notion site - Wireframes](https://weppreciate.notion.site/Wireframes-85bba971e91a4a6380b062e88355c931?pvs=4) and [Figma - Wireframes](https://www.figma.com/file/Sy9ISYYNwBQNsf13FpUwbR/We'ppreciate---Wireframes?type=design&node-id=2%3A2&mode=design&t=X91eijn8YuUSCsU2-1)
+
+### Development of wireframes
+The wireframes were developed over about a 2-week period, commencing once the product requirements and user stories were mostly completed. There were not significant changes in the design aesthetic in this timeframe, but regular check-ins to ensure alignment with the dataflow diagram occurred, and additional buttons were added to ensure almost all planned features were captured in the wireframe.
+
+An example of this includes a discussion that occurred about the ability to edit and delete cards and comments, and how this experience would differ by user permission. We knew that full CRUD would be required, but the design was adjusted once there was an alignment about which user role would be able to perform each task.
+
+Open-source figma component libraries were used to allow us to spend less time creating common buttons, shapes and icons - and more time ensuring the design was laid out logically and application features were captured in the wireframes.
+
+The following component libraries were used in our wireframes:
+- [Lookscout Design System - Low-Fi Wireframe Kit](https://www.figma.com/community/file/1266479641987028137)
+- [Wireframe Examples + Kit](https://www.figma.com/community/file/1300533276556237596)
+- [[Legacy] Wireframe Kit](https://www.figma.com/community/file/769801235736984714/legacy-wireframe-kit)
+- [Lookscout - Design System [Free Version]](https://www.figma.com/community/file/1266476307343004834)
+- [Notes & Callouts](https://www.figma.com/community/file/1134133416097111991)
+- [Wireframes Kit](https://www.figma.com/community/file/1221009141145444839)
+
+
+### Wireframe screenshots
+Each export from Figma contains a number of different wireframe views per page. The images can be enlarged to read all annotations. The initial state of each screen is shown in three devices sizes, though additional screens showing the user interaction may only be shown on the desktop screen size.
+
+### Home
+All wireframes:
+![Wireframes for home page](./resources/figma-wireframes/home-all-wireframes.png)
+
+### Login
+All wireframes:
+![Wireframes for login page](./resources/figma-wireframes/login-all-wireframes.png)
+
+Notable screens:
+![Key wireframes for login page](./resources/figma-wireframes/login-key-screens.png)
+
+### Dashboard
+All wireframes:
+![Wireframes for dashboard page](./resources/figma-wireframes/dashboard-all-wireframes.png)
+
+Primary Dashboard wireframe:
+![Key wireframe for dashboard](./resources/figma-wireframes/dashboard-key-screen.png)
+
+### Profile
+All wireframes:
+![Wireframes for profile page](./resources/figma-wireframes/profile-all-wireframes.png)
+
+Primary profile screens:
+![Key wireframe for profile](./resources/figma-wireframes/profile-key-screen-1.png)
+![Key wireframe for profile](./resources/figma-wireframes/profile-key-screen-2.png)
+
+### Settings
+All wireframes:
+![Wireframes for settings page](./resources/figma-wireframes/settings-all-wireframes.png)
+
+### Reports
+All wireframes:
+![Wireframes for reports page](./resources/figma-wireframes/reports-all-wireframes.png)
 
 
 ## R6 - Project Management
