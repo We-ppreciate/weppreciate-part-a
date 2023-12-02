@@ -68,7 +68,7 @@ We decided our application should be light in its interface, with muted and warm
 
 Some competitors offer integration with communication apps, such as Slack, which we found interesting - but agreed this was outside the scope of the project.
 
-![Screenshot from Notion of competitor research completed.](./resources/notion-competitor-research.jpg)
+![Screenshot from Notion of competitor research completed.](./docs/notion-competitor-research.jpg)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Competitor Research](https://weppreciate.notion.site/https://weppreciate.notion.site/Competitor-Research-24071f8e8bce49a79e71c982f9db55ba?pvs=4)
@@ -77,13 +77,13 @@ Some competitors offer integration with communication apps, such as Slack, which
 
 Our client has strong primary colours for its branding, and equally strong secondary colours for its values. We like the colours and their association, but felt they risked pulling the focus away from people and achievements. As a solution to this, we decided to use the client's secondary colours as a starting point, and both desaturate and lighten them, resulting in pastel versions of those colours:
 
-![Client's secondary colours and associated values](./resources/colour-swatch-accent.png)
+![Client's secondary colours and associated values](./docs/colour-swatch-accent.png)
 
-![We'ppreciate versions of client's colours - desaturated and lightened](./resources/colour-swatch-kawaii-accent-v1.2.png)
+![We'ppreciate versions of client's colours - desaturated and lightened](./docs/colour-swatch-kawaii-accent-v1.2.png)
 
 We created a unique logo for We'ppreciate that incorporated some of these colours, but also represented "togetherness" in the way that the W loops and unites:
 
-![We'ppreciate logo](./resources/weppreciate-logo.png)
+![We'ppreciate logo](./docs/weppreciate-logo.png)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Brand Design](https://weppreciate.notion.site/Brand-Design-cb65efea9fe84dfab495aea999f27a22?pvs=4)
@@ -124,7 +124,7 @@ Some user stories will apply to multiple or all personas.
 
 The core functionality of the application form the *acceptable criteria* in the user stories
 
-![Screenshot of User Stories from Notion collaborative space](./resources/user-stories.jpg)
+![Screenshot of User Stories from Notion collaborative space](./docs/user-stories.jpg)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - User Stories](https://weppreciate.notion.site/User-Stories-b41b48c301e34f498625f1c724df3976)
@@ -189,21 +189,21 @@ Currently evaluating between:
 
 ### Context Diagram (Overview of the system)
 
-![Dataflow Context Diagram, showing a high level view of the system](./resources/dfd-context-v2.png)
+![Dataflow Context Diagram, showing a high level view of the system](./docs/dfd-context-v2.png)
 
 ### Dataflow Diagram
 
 We started with a draft tangle of connections which became progressively hard to read as more processes and data stores were added:
 
-![Dataflow detailed Diagram, draft v2.0](./resources/data-flow-diagram-v2.png)
+![Dataflow detailed Diagram, draft v2.0](./docs/data-flow-diagram-v2.png)
 
 After some flow chart refactoring, there were some improvements, when we realised that Full User, Senior Manager, Line Manager, and Admin were all Full Users, with various privileges:
 
-![Dataflow detailed Diagram draft v5.0, showing processes within the system](./resources/data-flow-diagram-v5.png)
+![Dataflow detailed Diagram draft v5.0, showing processes within the system](./docs/data-flow-diagram-v5.png)
 
 And finally, a further refactor and annotations, after AWS S3 data stores were added for user images, and nomination values images:
 
-![Dataflow detailed Diagram final v5.1, showing processes within the system, and AWS S3 data stores](./resources/data-flow-diagram-v5.1.png)
+![Dataflow detailed Diagram final v5.1, showing processes within the system, and AWS S3 data stores](./docs/data-flow-diagram-v5.1.png)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Dataflow Diagram](https://weppreciate.notion.site/Data-Flow-Diagram-47398d8544d94a65a338526915426a19?pvs=4)
@@ -211,7 +211,7 @@ And finally, a further refactor and annotations, after AWS S3 data stores were a
 
 ## R3 - Application Architecture Diagram
 
-![Image of the We'ppreciate Application Architecture Diagram, showing high level front end layer, back end layer, data layer, and database layer](./resources/weppreciate-aadv2.png)
+![Image of the We'ppreciate Application Architecture Diagram, showing high level front end layer, back end layer, data layer, and database layer](./docs/weppreciate-aadv2.png)
 
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Application Architecture Diagram](https://weppreciate.notion.site/Application-Architecture-Diagram-51b1afe2e0a4482192db82302ac318b4?pvs=4)
@@ -243,37 +243,37 @@ Each export from Figma contains a number of different wireframe views per page. 
 
 ### Home
 All wireframes:
-![Wireframes for home page](./resources/figma-wireframes/home-all-wireframes.png)
+![Wireframes for home page](./docs/figma-wireframes/home-all-wireframes.png)
 
 ### Login
 All wireframes:
-![Wireframes for login page](./resources/figma-wireframes/login-all-wireframes.png)
+![Wireframes for login page](./docs/figma-wireframes/login-all-wireframes.png)
 
 Notable screens:
-![Key wireframes for login page](./resources/figma-wireframes/login-key-screens.png)
+![Key wireframes for login page](./docs/figma-wireframes/login-key-screens.png)
 
 ### Dashboard
 All wireframes:
-![Wireframes for dashboard page](./resources/figma-wireframes/dashboard-all-wireframes.png)
+![Wireframes for dashboard page](./docs/figma-wireframes/dashboard-all-wireframes.png)
 
 Primary Dashboard wireframe:
-![Key wireframe for dashboard](./resources/figma-wireframes/dashboard-key-screen.png)
+![Key wireframe for dashboard](./docs/figma-wireframes/dashboard-key-screen.png)
 
 ### Profile
 All wireframes:
-![Wireframes for profile page](./resources/figma-wireframes/profile-all-wireframes.png)
+![Wireframes for profile page](./docs/figma-wireframes/profile-all-wireframes.png)
 
 Primary profile screens:
-![Key wireframe for profile](./resources/figma-wireframes/profile-key-screen-1.png)
-![Key wireframe for profile](./resources/figma-wireframes/profile-key-screen-2.png)
+![Key wireframe for profile](./docs/figma-wireframes/profile-key-screen-1.png)
+![Key wireframe for profile](./docs/figma-wireframes/profile-key-screen-2.png)
 
 ### Settings
 All wireframes:
-![Wireframes for settings page](./resources/figma-wireframes/settings-all-wireframes.png)
+![Wireframes for settings page](./docs/figma-wireframes/settings-all-wireframes.png)
 
 ### Reports
 All wireframes:
-![Wireframes for reports page](./resources/figma-wireframes/reports-all-wireframes.png)
+![Wireframes for reports page](./docs/figma-wireframes/reports-all-wireframes.png)
 
 
 ## R6 - Project Management
@@ -299,56 +299,56 @@ We split our project into 6x 1-week sprints, starting from 0th week.
 
 ### Sprint board wk0
 
-![image of the sprint board, end week 0](./resources/notion-project-management-screenshots/end-wk-0/sprint-board-end-sprint-0.jpg)
+![image of the sprint board, end week 0](./docs/notion-project-management-screenshots/end-wk-0/sprint-board-end-sprint-0.jpg)
 
 ### Project Board wk0
 
-![image of the project board, end week 0](./resources/notion-project-management-screenshots/end-wk-0/projects-end-sprint-0.jpg)
+![image of the project board, end week 0](./docs/notion-project-management-screenshots/end-wk-0/projects-end-sprint-0.jpg)
 
 
 ### Task board, by project wk0
 
-![image of the task board by project, end week 0](./resources/notion-project-management-screenshots/end-wk-0/task-by-project-end-sprint-0.jpg)
+![image of the task board by project, end week 0](./docs/notion-project-management-screenshots/end-wk-0/task-by-project-end-sprint-0.jpg)
 
 ### Task Timeline wk0
 
-![image of the task board timeline, end week 0](./resources/notion-project-management-screenshots/end-wk-0/task-timeline-end-sprint-0-a.jpg)
+![image of the task board timeline, end week 0](./docs/notion-project-management-screenshots/end-wk-0/task-timeline-end-sprint-0-a.jpg)
 
 ### Documents list wk0
 
-![image of the documents board, end week 0](./resources/notion-project-management-screenshots/end-wk-0/docs-end-sprint-0.jpg)
+![image of the documents board, end week 0](./docs/notion-project-management-screenshots/end-wk-0/docs-end-sprint-0.jpg)
 
 ### Meetings wk0
 
-![image of the weekly meeting minutes, end week 0](./resources/notion-project-management-screenshots/end-wk-0/team-weekly-sprint-0.jpg)
+![image of the weekly meeting minutes, end week 0](./docs/notion-project-management-screenshots/end-wk-0/team-weekly-sprint-0.jpg)
 
-![image of the standup meeting minutes, end week 0](./resources/notion-project-management-screenshots/end-wk-0/sunday-standup-wk-0.jpg)
+![image of the standup meeting minutes, end week 0](./docs/notion-project-management-screenshots/end-wk-0/sunday-standup-wk-0.jpg)
 
 ## Project boards at end Sprint 1
 
 ### Sprint board wk1
 
-![image of the sprint board, end week 1](./resources/notion-project-management-screenshots/end-wk-1/sprint-kanban-end-of-sprint-1.jpg)
+![image of the sprint board, end week 1](./docs/notion-project-management-screenshots/end-wk-1/sprint-kanban-end-of-sprint-1.jpg)
 
 ### Project Board wk1
 
-![image of the project board, end week 1](./resources/notion-project-management-screenshots/end-wk-1/project-end-sprint-1.jpg)
+![image of the project board, end week 1](./docs/notion-project-management-screenshots/end-wk-1/project-end-sprint-1.jpg)
 
 
 ### Task board, by project wk1
 
-![image of the task board by project, end week 1](./resources/notion-project-management-screenshots/end-wk-1/task-by-project-end-wk-1.jpg)
+![image of the task board by project, end week 1](./docs/notion-project-management-screenshots/end-wk-1/task-by-project-end-wk-1.jpg)
 
 ### Task Timeline wk1
 
-![image of the task board timeline, end week 1](./resources/notion-project-management-screenshots/end-wk-1/task-timeline-end-sprint-1.jpg)
+![image of the task board timeline, end week 1](./docs/notion-project-management-screenshots/end-wk-1/task-timeline-end-sprint-1.jpg)
 
 ### Documents list wk1
 
-![image of the documents board, end week 1](./resources/notion-project-management-screenshots/end-wk-1/docs-end-sprint-1.jpg)
+![image of the documents board, end week 1](./docs/notion-project-management-screenshots/end-wk-1/docs-end-sprint-1.jpg)
 
 ### Meetings wk1
 
-![image of the standup minutes 26th Nov, end week 1](./resources/notion-project-management-screenshots/end-wk-1/stand-up-sprint-1.jpg)
+![image of the standup minutes 26th Nov, end week 1](./docs/notion-project-management-screenshots/end-wk-1/stand-up-sprint-1.jpg)
 
-![image of the standup meeting minutes 21st Nov, end week 1](./resources/notion-project-management-screenshots/end-wk-1/standup-21-Nov-wk1.jpg)
+![image of the standup meeting minutes 21st Nov, end week 1](./docs/notion-project-management-screenshots/end-wk-1/standup-21-Nov-wk1.jpg)
