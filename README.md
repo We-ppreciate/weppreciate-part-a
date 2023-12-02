@@ -52,7 +52,7 @@ The web app will offer services to cater to the user stories, identified below. 
 	- have a persistent record of nominations, awards and instant thanks received,
 	- also be able to nominate others within Business Services.
 1. Senior Managers will be able to review, group, reject, or progress nominations to awards.
-1. Line Managers will have a rolled-up view of cards, nominations and awards received by thier team members.
+1. Line Managers will have a rolled-up view of cards, nominations and awards received by their team members.
 1. Administrators will be able to have wide data viewing, updating, deleting, and creation abilities, including to change user details, add and remove profiles, add and remove nominations, and and remove authorisation.
 
 Were this project to be implemented, the client would be encouraged to run promotional activity for implementation and staff engagement. We suggest identifying stakeholders, and a group of people for User Acceptance Testing and user experience feedback.
@@ -73,7 +73,7 @@ Some competitors offer integration with communication apps, such as Slack, which
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Competitor Research](https://weppreciate.notion.site/https://weppreciate.notion.site/Competitor-Research-24071f8e8bce49a79e71c982f9db55ba?pvs=4)
 
-#### Branding, look and feel
+### Branding, look and feel
 
 Our client has strong primary colours for its branding, and equally strong secondary colours for its values. We like the colours and their association, but felt they risked pulling the focus away from people and achievements. As a solution to this, we decided to use the client's secondary colours as a starting point, and both desaturate and lighten them, resulting in pastel versions of those colours:
 
@@ -88,46 +88,16 @@ We created a unique logo for We'ppreciate that incorporated some of these colour
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Brand Design](https://weppreciate.notion.site/Brand-Design-cb65efea9fe84dfab495aea999f27a22?pvs=4)
 
-## R4 User Stories
+### Target audience/stakeholders
+Our initial target audience for We'ppreciate includes:
+- Senior managers and HR for the Business Services team of our client organisation
+- All Business Services employees in our client organisation
+- All other employees within the client organisation that interact with the Business Services team
 
-### The user story format
+These users, and how we expect they will interact with our application, are covered in more depth in [R4 User Stories](#r4-user-stories).
 
-We used [Atlassian's](https://www.atlassian.com/agile/project-management/user-stories) format of: **As a \[persona\], I \[want to\], \[so that\].**
+If We'ppreciate was expanded to other teams or organisations, the wider target audience would be senior management and HR professionals (as our primary stakeholders), and all of their employees as end-users of the application.
 
-Breaking this down:
-
-- **"As a \[persona\]":** Who are we building this for? We’re not just after a job title, we’re after the persona of the person. Max. Our team should have a shared understanding of who Max is. We’ve hopefully interviewed plenty of Max’s. We understand how that person works, how they think and what they feel. We have empathy for Max.
-- **“Want to”:** Here we’re describing their intent — not the features they use. What is it they’re actually trying to achieve? This statement should be implementation free — if you’re describing any part of the UI and not what the user goal is you're missing the point.
-- **“So that”:** how does their immediate desire to do something this fit into their bigger picture? What’s the overall benefit they’re trying to achieve? What is the big problem that needs solving?
-
-> [!NOTE]
-> Viewable on [We'ppreciate's Notion site - User Stories](https://weppreciate.notion.site/User-Stories-b41b48c301e34f498625f1c724df3976)
-
-### The personas
-
-To give our user stories the true “persona” effect, here are some defined personas that represent a variety of users/stakeholders within the organisation:
-
-| **Name**   | **Role within organisation**               | **User role in application** | **Bio**
-| ------ | ---------------------------------------------- | ------------------------ |---------------|
-| Nate   | Individual contributor, Business Services team | Employee (Full access)   | Employee (Full)	A high achiever in the Business Services team, Nate is strongly motivated by words of affirmation from his peers and leaders.
-| Ed     | Line manager, Business Services team           | Line Manager             | Ed is a new manager in Business Services and is trying to build relationships with and understand the achievements of his direct reports.
-| Katie  | HR Business Partner, Business Services team    | Administrator            | Katie is a strong advocate for implementing technology to uplift and enhance HR initiatives.
-| Naomi  | Individual contributor, Sales team             | Employee (Basic access)  | Naomi is often on the road and has terrible luck with IT, so she’s built some great relationships with Business Services as they help keep her operational.
-| Hannah | Senior manager, Business Services team         | Senior Manager           | Hannah knows that her people are providing great value and work across the business every day, but she wants to see more visible recognition and higher participation in nominations for monthly awards.
-
-Some user stories will apply to multiple or all personas.
-
-> [!NOTE]
-> Viewable on [We'ppreciate's Notion site - User Stories](https://weppreciate.notion.site/User-Stories-b41b48c301e34f498625f1c724df3976)
-
-### The user stories
-
-The core functionality of the application form the *acceptable criteria* in the user stories
-
-![Screenshot of User Stories from Notion collaborative space](./docs/user-stories.jpg)
-
-> [!NOTE]
-> Viewable on [We'ppreciate's Notion site - User Stories](https://weppreciate.notion.site/User-Stories-b41b48c301e34f498625f1c724df3976)
 
 ### The Stack
 
@@ -154,7 +124,6 @@ We intend to solve these issues with a full stack MERN web application, harnessi
 - [npm](https://www.npmjs.com/)
 
 #### Testing:
-
 Currently evaluating between:
 - [Jest](https://jestjs.io/)
 - [msjws](https://mswjs.io/)
@@ -216,6 +185,55 @@ And finally, a further refactor and annotations, after AWS S3 data stores were a
 > [!NOTE]
 > Viewable on [We'ppreciate's Notion site - Application Architecture Diagram](https://weppreciate.notion.site/Application-Architecture-Diagram-51b1afe2e0a4482192db82302ac318b4?pvs=4)
 
+
+## R4 User Stories
+
+### The user story format
+
+We used [Atlassian's](https://www.atlassian.com/agile/project-management/user-stories) format of: **As a \[persona\], I \[want to\], \[so that\].**
+
+Breaking this down:
+
+- **"As a \[persona\]":** Who are we building this for? We’re not just after a job title, we’re after the persona of the person. Max. Our team should have a shared understanding of who Max is. We’ve hopefully interviewed plenty of Max’s. We understand how that person works, how they think and what they feel. We have empathy for Max.
+- **“Want to”:** Here we’re describing their intent — not the features they use. What is it they’re actually trying to achieve? This statement should be implementation free — if you’re describing any part of the UI and not what the user goal is you're missing the point.
+- **“So that”:** how does their immediate desire to do something this fit into their bigger picture? What’s the overall benefit they’re trying to achieve? What is the big problem that needs solving?
+
+> [!NOTE]
+> Viewable on [We'ppreciate's Notion site - User Stories](https://weppreciate.notion.site/User-Stories-b41b48c301e34f498625f1c724df3976)
+
+### The personas
+
+To give our user stories the true “persona” effect, here are some defined personas that represent a variety of users/stakeholders within the organisation:
+
+| **Name**   | **Role within organisation**               | **User role in application** | **Bio**
+| ------ | ---------------------------------------------- | ------------------------ |---------------|
+| Nate   | Individual contributor, Business Services team | Employee (Full access)   | Employee (Full)	A high achiever in the Business Services team, Nate is strongly motivated by words of affirmation from his peers and leaders.
+| Ed     | Line manager, Business Services team           | Line Manager             | Ed is a new manager in Business Services and is trying to build relationships with and understand the achievements of his direct reports.
+| Katie  | HR Business Partner, Business Services team    | Administrator            | Katie is a strong advocate for implementing technology to uplift and enhance HR initiatives.
+| Naomi  | Individual contributor, Sales team             | Employee (Basic access)  | Naomi is often on the road and has terrible luck with IT, so she’s built some great relationships with Business Services as they help keep her operational.
+| Hannah | Senior manager, Business Services team         | Senior Manager           | Hannah knows that her people are providing great value and work across the business every day, but she wants to see more visible recognition and higher participation in nominations for monthly awards.
+
+Some user stories will apply to multiple or all personas.
+
+> [!NOTE]
+> Viewable on [We'ppreciate's Notion site - User Stories](https://weppreciate.notion.site/User-Stories-b41b48c301e34f498625f1c724df3976)
+
+### The final user stories
+
+The core functionality of the application form the *acceptable criteria* in the user stories
+
+![Screenshot of User Stories from Notion collaborative space](./docs/user-stories.jpg)
+
+> [!NOTE]
+> Viewable on [We'ppreciate's Notion site - User Stories](https://weppreciate.notion.site/User-Stories-b41b48c301e34f498625f1c724df3976)
+
+
+### Development of user stories
+
+Prior to reaching our final user stories listed above, we initially wrote down *what* certain business users would want to achieve from our application. These served as a way to put into writing *who* would want to do *what* in the application, prior to curating personas and formatting in the correct user story format. Additional stories were added once we had captured the initial core functionality from these drafts into the right format:
+![Screenshot of draft user functionality for user story development](./docs/user-story-drafts.png)
+
+
 ## R5 - Wireframes
 We used Figma for our wireframing, storing all wireframes in one file with a page to represent each unique page set within our application.
 
@@ -242,10 +260,14 @@ The following component libraries were used in our wireframes:
 Each export from Figma contains a number of different wireframe views per page. The images can be enlarged to read all annotations. The initial state of each screen is shown in three devices sizes, though additional screens showing the user interaction may only be shown on the desktop screen size.
 
 ### Home
+The home page is the landing page for our application. This is where all users will typically start their time with our application, unless they have been linked to another screen directly. To access the application, the next screen they will move to is the login page.
+
 All wireframes:
 ![Wireframes for home page](./docs/figma-wireframes/home-all-wireframes.png)
 
 ### Login
+Unless a user has an active logged in session, they will need to visit this screen in order to get into the other screens in the application (other than the home page).
+
 All wireframes:
 ![Wireframes for login page](./docs/figma-wireframes/login-all-wireframes.png)
 
@@ -253,6 +275,8 @@ Notable screens:
 ![Key wireframes for login page](./docs/figma-wireframes/login-key-screens.png)
 
 ### Dashboard
+When a user is logged in, the Dashboard is the first screen they are taken to (unless they have been linked directly to another screen). From here the user is in control of what screen they visit next - they could access any of the functionality within the Dashboard itself, or go to a profile (their own or another user's), the Settings screen, or if they have permissions, the Reports page.
+
 All wireframes:
 ![Wireframes for dashboard page](./docs/figma-wireframes/dashboard-all-wireframes.png)
 
@@ -260,6 +284,8 @@ Primary Dashboard wireframe:
 ![Key wireframe for dashboard](./docs/figma-wireframes/dashboard-key-screen.png)
 
 ### Profile
+Similarly to the Dashboard, once the user is logged in, they have the choice of which area of the application that they wish to visit next.
+
 All wireframes:
 ![Wireframes for profile page](./docs/figma-wireframes/profile-all-wireframes.png)
 
@@ -268,10 +294,14 @@ Primary profile screens:
 ![Key wireframe for profile](./docs/figma-wireframes/profile-key-screen-2.png)
 
 ### Settings
+Similarly to the Dashboard, once the user is logged in, they have the choice of which area of the application that they wish to visit next.
+
 All wireframes:
 ![Wireframes for settings page](./docs/figma-wireframes/settings-all-wireframes.png)
 
 ### Reports
+Similarly to the Dashboard, once the user is logged in, they have the choice of which area of the application that they wish to visit next.
+
 All wireframes:
 ![Wireframes for reports page](./docs/figma-wireframes/reports-all-wireframes.png)
 
